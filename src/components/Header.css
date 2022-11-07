@@ -1,0 +1,46 @@
+.header{
+    display: flex;
+    background-color: transparent;
+    background: none;
+    position: fixed;
+    width: 100vw;
+    top:0;
+    margin-top: 10px;
+    z-index: 100;
+    justify-content: space-around;
+    flex: 1;
+}
+
+.header__logo{
+    display: flex;
+    height: 12px;
+    width: 16%;
+    margin-top: 10px;
+}
+
+.header__center{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #1d2027;
+}
+
+.header__center > p{
+    margin: 10px;
+    text-transform: capitalize;
+    
+}
+
+.header__right{
+    display: flex;
+    justify-content: flex-end;
+    text-transform: capitalize;
+    color: #1d2027;
+    justify-content: space-between;
+}
+
+.header__right > p{
+    margin: 10px;
+    justify-content: space-evenly;
+}
+
